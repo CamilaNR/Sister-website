@@ -1,0 +1,76 @@
+head { 
+  font-family: 'Merriweather';
+}
+body {
+    background-color: rgb(239, 239, 239) ;
+    background-image: url('SVG/Asset\ 2.svg');
+    background-size: 45vw;
+    background-repeat: no-repeat;
+    background-position: bottom 15px right 20px; 
+    font-family: "Quicksand", sans-serif;
+
+  
+    color: #0a062e;
+    }
+/* main page */
+  div#centro { 
+  text-align: center;
+}
+/* amante tem diretos page */
+div#centro2 {
+    text-align: center;
+}
+/* imiveis */
+div#centro3 {
+    text-align: center;
+}
+/* bem de familia */
+div#centro4 {
+    text-align: center;
+}
+
+h1 {color: #0a062e;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center; 
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+h2 {color: #0a062e;
+  font-size: 2em;
+  padding-top: 40px;
+  width: 100%;
+}
+  
+#Assuntos{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  
+}
+#Servicos{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  
+}
+#Entreemcontato {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  max-height: 200px;
+  max-width: 150px;
+}
+
+
