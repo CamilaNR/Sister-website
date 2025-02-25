@@ -12,7 +12,7 @@ head {
   font-family: 'Merriweather';
 }
 body {
-    background-color:blue ;
+    background-color:rgb(221, 227, 228) ; 
     background-image: url('SVG/Asset\ 2.svg');
     background-size: 350px;
     background-repeat: no-repeat;
