@@ -1,18 +1,18 @@
 @media(min-width:600px){
   body{
-      background-color: rgb(221, 227, 228) ;
+      background-color: rgb(235, 237, 237) ;
   }
 }
 @media(mix-width:599px){
   body{
-      background-color: rgb(221, 227, 228) ;
+      background-color: rgb(235, 237, 237) ;
   }
 }
 head { 
   font-family: 'Merriweather';
 }
 body {
-    background-color:rgb(221, 227, 228) ; 
+    background-color:rgb(235, 237, 237) ; 
     background-image: url('SVG/Asset\ 2.svg');
     background-size: 350px;
     background-repeat: no-repeat;
