@@ -3,17 +3,14 @@
       background-color:  rgb(242, 242, 242) ;
   }
 }
-@media(mix-width:599px){
+@media(max-width:599px){
   body{
       background-color: rgb(242, 242, 242) ;
   }
 }
-head { 
-  font-family: 'Merriweather';
-}
 body {
     background-color: rgb(242, 242, 242) ; 
-    background-image: url('SVG/Asset\ 2.svg');
+    background-image: url('SVG/Asset 2.svg');
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: bottom 15px right 20px; 
@@ -77,8 +74,8 @@ h2 {color: #0a062e;
   align-items: center;
 }
 footer{
-  max-height: 20px;
-  max-width: 15px;
+  min-height: 20px;
+  min-width: 15px;
 }
 
  .serviceimage { width: 350px;
@@ -88,6 +85,6 @@ footer{
 }
 
 fieldset {
-  width: 30px;
+  width: 30%;
   margin: auto;
   }
