@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
 <title>Advogada Mariana Rosário</title>
 </head>
 
@@ -25,13 +26,13 @@
     </div>
     <div id="Serviços">
         <h2>Serviços</h2>
-        <p>
-        <h3>Direito Imobiliário </h3>
+        <p> 
+      <h3>Direito Imobiliário </h3> 
         <p><img class="serviceimage" src="Direito_Imobiliário-removebg-preview.png"></p>
         Muito além do processo judicial, realizamos a regularização de imóveis urbanos e rurais em Cartórios,
         com o procedimento Extrajudicial de forma democrática e personalizada ao seu caso.
         Ao contratar nossos serviços, você pode ter a certeza de que estaremos à sua disposição em todas as etapas.
-        <h3>Direito de Família e Sucessões</h3>
+       <h3>Direito de Família e Sucessões</h3>
         <p><img class="serviceimage" src="familadireito.png"></p>
         Este é um dos nossos serviços mais procurados. Uniões estáveis, casamentos, divórcios, inventários e pensões
         alimentícias...
@@ -45,15 +46,15 @@
         Algo que faz parte do dia a dia de todos nós mas que pode trazer várias dores de cabeça.
         Atuamos para defender o seu diteito de Consumidor utilizando estratégias de negociação e caminhos judiciais e
         extrajudiciais.
-        <h3>Direito Previdenciário</h3>
+      <h3>Direito Previdenciário</h3>
         <p><img class="serviceimage" src="carteira.png"></p>
         Requer seus direitos diante do INSS pode ser burocrático e difícil, nós te ajudamos!
         Assessoria em Aposentadorias, LOAS/BPC, Autistas, e Auxílios.
-        <h3>Direito Bancário</h3>
+    <h3>Direito Bancário</h3>
         <p><img class="serviceimage" src="banco.png"></p>
         Já pensou se as taxas e juros que os bancos cobram te cobram estão na legalidade?
         Combatemos os juros abusivo, negativa de direitos, Block List, negativações indevidas e muito mais!
-        <h3>Contratos</h3>
+    <h3>Contratos</h3>
         <p><img class="serviceimage" src="contrato.png"></p>
         Vamos muito além dos contratos seguros imobiliários como aluguel e compra e venda.
         Já pensou em proteger seu relacionamento com um Contrato de Namoro?
@@ -92,7 +93,46 @@
         </p>
       
 </div>
+<!-- Botão flutuante -->
+<button id="toggle-button">Contato ✉️</button>
 
+<!-- Formulário que aparece/desaparece -->
+<div id="form-container">
+  <form action="" method="get" oninput="fn.value=File">
+    <fieldset>
+      <legend style="font-weight: bold;">Quer saber mais? </legend>
+      <p>Preencha o formulário para que possamos te ajudar. Estamos interessados em ouvir sobre o seu caso.</p>
+
+      <label for="Nome">Nome:</label>
+      <input type="text" name="Nome" id="Nome" accesskey="N" tabindex="1"><br>
+
+      <label for="sobrenome">Sobrenome:</label>
+      <input type="text" name="sobrenome" id="sobrenome" accesskey="1" tabindex="2"><br>
+
+      <label for="number">Telefone:</label>
+      <input type="text" name="number" id="number" accesskey="n" tabindex="3"><br>
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" name="assunto" id="assunto" accesskey="A" tabindex="4"><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea name="mensagem" id="mensagem" rows="10" cols="50" maxlength="300"></textarea><br>
+
+      <input type="submit" name="submitform" value="Enviar">
+      <output name="fn"></output>
+    </fieldset>
+  </form>
+</div>
+
+
+<script>
+  const toggleButton = document.getElementById('toggle-button');
+  const formContainer = document.getElementById('form-container');
+
+  toggleButton.addEventListener('click', () => {
+    formContainer.style.display = formContainer.style.display === 'block' ? 'none' : 'block';
+  });
+</script>
 </body>
 
 </html>
